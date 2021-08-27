@@ -1,3 +1,17 @@
+# About
+This is a Telegram bot that checks the AudioJungle account sales count every 10 minutes and notifies users about new sales. Bot username: @audj_sales_tracker_bot
+
+What can this bot do?
+
+- Text me 'Add account_name', and I will check this account every 10 minutes for the new sales and notify you.
+If you want to add another account for checking - just text me again. I will check them all.
+
+- If you want to delete some account from the check list - text me 'Delete account_name' and I won't check for it anymore
+
+- If you want to check sales manually - just send me the /check command
+
+- If you want to see all subscriptions - send me the /get command
+
 ## Project parts:
 1. Scheduled function
 2. Telegram bot

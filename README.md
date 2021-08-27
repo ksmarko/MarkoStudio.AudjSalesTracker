@@ -1,3 +1,17 @@
+## Project parts:
+1. Scheduled function
+2. Telegram bot
+
+# Scheduled function
+Written in Node.js 14
+Hosted on Firebase
+
+Readme here https://github.com/ksmarko/MarkoStudio.AudjSalesTracker/blob/master/scheduler/README.md
+
+## Telegram Bot
+Written in Python 3.9
+Hosted on Heroku
+
 Run script locally: python main.py
 
 Packages:

@@ -2,7 +2,7 @@
 1. Scheduled function
 2. Telegram bot
 
-# Scheduled function
+## Scheduled function
 Written in Node.js 14
 Hosted on Firebase
 

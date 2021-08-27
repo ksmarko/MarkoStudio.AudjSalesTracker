@@ -1,0 +1,6 @@
+redis
+requests
+python-telegram-bot
+logtail-python
+logentries
+python-decouple

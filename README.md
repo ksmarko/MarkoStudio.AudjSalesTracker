@@ -16,24 +16,17 @@ If you want to add another account for checking - just text me again. I will che
 1. Scheduled function
 2. Telegram bot
 
-## Scheduled function
-Written in Node.js 14
-Hosted on Firebase
+### Scheduled function
+Written in Node.js 14, hosted on Firebase
 
 Readme here https://github.com/ksmarko/MarkoStudio.AudjSalesTracker/blob/master/scheduler/README.md
 
-## Telegram Bot
-Written in Python 3.9
-Hosted on Heroku
+### Telegram Bot
+Written in Python 3.9, hosted on Heroku
 
-Run script locally: python main.py
+Run script locally: `python main.py`
 
-Packages:
-pip install redis
-pip install requests
-pip install python-telegram-bot
-
-Or run command `pip install -r requirements.txt`
+Packages: run command `pip install -r requirements.txt`
 
 Всё, о чём должен знать разработчик Телеграм-ботов: https://habr.com/ru/post/543676/ \n
 

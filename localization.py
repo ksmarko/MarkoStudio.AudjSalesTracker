@@ -22,7 +22,9 @@ def getWelcomeMessage(languageCode):
 If you want to add another account for checking - just text me again. I will check them all.
 📌 If you want to delete some account from the check list - text me \'Delete account_name\' and I won\'t check for it anymore
 📌 If you want to check sales manually - just send me the /check command
-📌 If you want to see all subscriptions - send me the /get command'''
+📌 If you want to see all subscriptions - send me the /get command
+🤟 No matter what you write, I will always respond to your messages. But if suddenly I am silent  - it means that something went wrong and it's better to ask @kseniia_marko for help'''
+
     return message
 
 def getNoSubscriptionsFoundMessage(languageCode):

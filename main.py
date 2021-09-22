@@ -79,6 +79,11 @@ def checkSalesCount(update, context):
 
     accounts = db_adapter.getAccounts(currentChatId)
 
+    if len(accounts) == 0: 
+        message = localization.getNoSubscriptionsFoundMessage(lang)
+        context.bot.send_message(chat_id=currentChatId, text=message)
+        return
+    
     for account in accounts:
 
         chatId = account["chatId"]
